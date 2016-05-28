@@ -47,7 +47,6 @@ var queryTorrents = function (query, retry) {
     }
 
     var t = Date.now();
-    console.log('kat URL:', requestUri.toString());
     request(requestUri.toString(), {
         json: true
     }, function (error, response, body) {
