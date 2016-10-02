@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "request": "^2.55.0",
+    "request": "github:request/request#2351a8c",
     "q": "2.0.3",
     "urijs": "^1.18.1"
   },
